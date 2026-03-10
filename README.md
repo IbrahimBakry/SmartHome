@@ -30,9 +30,13 @@ https://ibrahimbakry.github.io/SmartHome/
 project/
 
 │
+
 ├── index.html          # Главная страница
+
 ├── style.css           # Все стили проекта
+
 ├── favicon.ico         # Иконка сайта (опционально)
+
 └── README.md           # Описание проекта
 
 ## 🎯 Целевая аудитория
