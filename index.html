@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Умный Дом · Для жизни и для бизнеса</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-tech">
+    <!-- TELESCOPIC MENU - LEFT SIDE (COMBINED) -->
+    <div class="menu-wrapper">
+        <!-- Page switcher section -->
+        <div class="menu-section">
+            <div class="menu-item">
+                <button class="menu-btn active" data-page="home">
+                    <i class="fas fa-home"></i>
+                    <span class="menu-text">Владельцам жилья</span>
+                </button>
+            </div>
+            <div class="menu-item">
+                <button class="menu-btn" data-page="business">
+                    <i class="fas fa-building"></i>
+                    <span class="menu-text">Застройщикам</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Divider -->
+        <div class="menu-divider"></div>
+        
+        <!-- Color theme section -->
+        <div class="menu-section">
+            <div class="menu-item">
+                <button class="menu-btn theme-btn" data-theme="theme-tech">
+                    <div class="theme-dot" style="background: linear-gradient(145deg, #00a8b5, #5fd9e8);"></div>
+                    <span class="menu-text">Технологичный</span>
+                </button>
+            </div>
+            <div class="menu-item">
+                <button class="menu-btn theme-btn" data-theme="theme-warm">
+                    <div class="theme-dot" style="background: linear-gradient(145deg, #e67e22, #f39c12);"></div>
+                    <span class="menu-text">Тёплый</span>
+                </button>
+            </div>
+            <div class="menu-item">
+                <button class="menu-btn theme-btn" data-theme="theme-nature">
+                    <div class="theme-dot" style="background: linear-gradient(145deg, #4caf50, #8bc34a);"></div>
+                    <span class="menu-text">Природный</span>
+                </button>
+            </div>
+            <div class="menu-item">
+                <button class="menu-btn theme-btn" data-theme="theme-night">
+                    <div class="theme-dot" style="background: linear-gradient(145deg, #9c6ee7, #b794f4);"></div>
+                    <span class="menu-text">Ночной</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PAGE FOR HOME OWNERS -->
+ <!-- PAGE FOR HOME OWNERS - MARKETING OPTIMIZED -->
+<div id="page-home" class="page active-page">
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-home"></i> <span class="gradient-text">сделайте жизнь проще</span> <i class="fas fa-heart"></i></h1>
+            <p>Готовые решения — никакой сложной настройки. Всё работает сразу.</p>
+            <div style="margin-top: 0.8rem;">
+                <span class="badge-zigbee"><i class="fas fa-check-circle"></i> Работает с смартфоном, Алисой и Марусей</span>
+            </div>
+        </div>
+
+        <!-- Сетка карточек (4 решения) - ПРОСТЫМИ СЛОВАМИ -->
+        <div class="solutions-grid">
+            
+            <!-- ПАКЕТ 1: СВЕТ (было Стартовый) -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                <h2>Свет</h2>
+                <div class="badge gift-badge"><i class="fas fa-gift"></i> Подарок — датчик движения</div>
+                <div class="price-tag">8 900 ₽ <span class="price-note">под ключ</span></div>
+
+                <div class="section-title"><i class="fas fa-check"></i> Что входит</div>
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Главный мозг (хаб) — всё связывает</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 3 лампы — управляйте светом с телефона</li>
+                    <li><i class="fas fa-gift" style="color:var(--gift);"></i> Датчик движения в подарок!</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-star" style="color:var(--accent);"></i> Как это упростит жизнь</p>
+                    <ul>
+                        <li><i class="fas fa-microphone-alt" style="color:var(--accent);"></i> Сказали «Алиса, включи свет» — он включился</li>
+                        <li><i class="fas fa-clock" style="color:var(--accent);"></i> Свет сам зажигается вечером</li>
+                        <li><i class="fas fa-running" style="color:var(--accent);"></i> Зашли в комнату — свет зажегся (подарок!)</li>
+                        <li><i class="fas fa-tv" style="color:var(--accent);"></i> Режим «Кино» — свет приглушается</li>
+                    </ul>
+                </div>
+
+                <div class="chart-preview">
+                    <p><i class="fas fa-info-circle"></i> Ваши обычные выключатели продолжают работать</p>
+                </div>
+            </div>
+
+            <!-- ПАКЕТ 2: БЕЗОПАСНОСТЬ (было Базовый + Безопасность) -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h2>Безопасность</h2>
+                <div class="badge">спите спокойно</div>
+                <div class="price-tag">16 900 ₽ <span class="price-note">под ключ</span></div>
+
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Всё из пакета «Свет»</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 3 датчика на двери/окна</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 3 датчика движения</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-star" style="color:var(--accent);"></i> Как это упростит жизнь</p>
+                    <ul>
+                        <li><i class="fas fa-bell" style="color:var(--accent);"></i> Если кто-то открыл дверь — приходит уведомление</li>
+                        <li><i class="fas fa-microphone-alt" style="color:var(--accent);"></i> Алиса предупредит: «Открыта входная дверь»</li>
+                        <li><i class="fas fa-moon" style="color:var(--accent);"></i> Ночью свет зажигается, когда вы встаёте</li>
+                        <li><i class="fas fa-user-lock" style="color:var(--accent);"></i> Режим «Охрана» — сигнал при движении</li>
+                    </ul>
+                </div>
+
+                <div class="chart-preview">
+                    <p><i class="fas fa-info-circle"></i> Даже если вы в командировке — знаете, что дома всё хорошо</p>
+                </div>
+            </div>
+
+            <!-- ПАКЕТ 3: КУХНЯ (было Для кухни и комфорта) -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-mug-hot"></i></div>
+                <h2>Кухня</h2>
+                <div class="badge">помощник на кухне</div>
+                <div class="price-tag">21 900 ₽ <span class="price-note">под ключ</span></div>
+
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Всё из пакета «Безопасность»</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 3 умные розетки для любой техники</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-star" style="color:var(--accent);"></i> Как это упростит жизнь</p>
+                    <ul>
+                        <li><i class="fas fa-mug-hot" style="color:var(--accent);"></i> «Маруся, вскипяти чай» — чайник закипает</li>
+                        <li><i class="fas fa-tshirt" style="color:var(--accent);"></i> Утюг сам отключится, если вы ушли</li>
+                        <li><i class="fas fa-bread-slice" style="color:var(--accent);"></i> Хлебопечка включаетcя к завтраку</li>
+                        <li><i class="fas fa-plug" style="color:var(--accent);"></i> Выключайте забытый утюг с телефона</li>
+                    </ul>
+                </div>
+
+                <div class="chart-preview">
+                    <p><i class="fas fa-info-circle"></i> Любая техника становится «умной» — чайник, кофеварка, утюг</p>
+                </div>
+            </div>
+
+
+<!-- ПАКЕТ 4: ВСЁ ВКЛЮЧЕНО (с камерой в подарок) -->
+<div class="card">
+    <div class="card-icon"><i class="fas fa-crown"></i></div>
+    <h2>Всё включено</h2>
+    <div class="badge gift-badge"><i class="fas fa-gift"></i> Подарок — камера</div>
+    <div class="price-tag">29 900 ₽ <span class="price-note">под ключ</span></div>
+
+    <ul class="equip-list">
+        <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Всё из пакета «Кухня»</li>
+        <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 3 датчика температуры и влажности</li>
+        <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 3 датчика протечки воды</li>
+        <li><i class="fas fa-gift" style="color:var(--gift); font-weight: bold;"></i> <strong>Камера видеонаблюдения в подарок!</strong></li>
+        <li><i class="fas fa-info-circle" style="color:var(--text-light);"></i> Умный кран (опционально, отдельно)</li>
+    </ul>
+
+    <div class="scenario-box">
+        <p><i class="fas fa-star" style="color:var(--accent);"></i> Как это упростит жизнь</p>
+        <ul>
+            <li><i class="fas fa-fan" style="color:var(--accent);"></i> Если в ванной сыро — включается вытяжка</li>
+            <li><i class="fas fa-tint" style="color:var(--accent);"></i> Если потекла вода — сигнал на телефон</li>
+            <li><i class="fas fa-thermometer-half" style="color:var(--accent);"></i> Если холодно — включится обогреватель</li>
+            <li><i class="fas fa-video" style="color:var(--accent);"></i> <strong>Видите, что дома всё спокойно (подарок!)</strong></li>
+        </ul>
+    </div>
+
+    <div class="chart-preview">
+        <p><i class="fas fa-info-circle"></i> Камера + климат + защита от потопов — полный контроль</p>
+    </div>
+</div>
+        </div>
+
+        <!-- ПРОСТЫЕ ЦЕНЫ НА ДОПОЛНЕНИЯ -->
+        <div class="price-table">
+            <h3><i class="fas fa-plus-circle" style="color:var(--accent);"></i> Добавьте позже что угодно</h3>
+            <div class="price-grid">
+                <div class="price-item"><i class="fas fa-microchip"></i> Умная лампа/розетка — 900 ₽</div>
+                <div class="price-item"><i class="fas fa-door-open"></i> Датчик открытия — 900 ₽</div>
+                <div class="price-item"><i class="fas fa-running"></i> Датчик движения — 900 ₽</div>
+                <div class="price-item"><i class="fas fa-temperature-low"></i> Датчик климата — 900 ₽</div>
+                <div class="price-item"><i class="fas fa-water"></i> Датчик протечки — 900 ₽</div>
+				<div class="price-item"><i class="fas fa-video"></i> Камера для дома (видео + звук) — 3 900 ₽</div>
+                <div class="price-item"><i class="fas fa-video"></i> Камера уличная (защита от дождя) — 5 900 ₽</div>
+            </div>
+            <div class="installation" style="margin-top:1rem;">
+                <i class="fas fa-truck"></i> Выезд мастера — бесплатно при заказе пакета
+            </div>
+        </div>
+
+<!-- ГОЛОСОВЫЕ ПОМОЩНИКИ (дополнительно) -->
+<div class="price-table" style="margin-top: 2rem;">
+    <h3><i class="fas fa-microphone-alt" style="color:var(--accent);"></i> Голосовые помощники (под заказ)</h3>
+    <div class="price-grid">
+        <div class="price-item"><i class="fas fa-music"></i> VK Капсула Нео (Маруся) — 4 200 ₽</div>
+        <div class="price-item"><i class="fas fa-music"></i> VK Капсула Мини (Маруся) — 4 900 ₽</div>
+        <div class="price-item"><i class="fas fa-microchip"></i> Яндекс Станция Лайт 2 (Алиса) — 6 200 ₽</div>
+        <div class="price-item"><i class="fas fa-microchip"></i> Яндекс Станция Мини 3 (Алиса + Zigbee) — 9 200 ₽</div>
+        <div class="price-item"><i class="fas fa-microchip"></i> Яндекс Станция Миди (Алиса + Zigbee) — 14 900 ₽</div>
+    </div>
+    <div class="installation" style="margin-top:1rem;">
+        <i class="fas fa-info-circle"></i> Цена включает доставку и настройку. При заказе с любым пакетом — скидка 10%
+    </div>
+</div>
+
+        <!-- ПРОСТОЕ ОБЪЯСНЕНИЕ -->
+        <div class="faq-section">
+            <h2><i class="fas fa-question-circle"></i> Всё просто</h2>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3><i class="fas fa-magic"></i> Как это работает?</h3>
+                    <p>Мы ставим маленькие реле за ваши выключатели и в розетки. Вы ничего не замечаете — просто можете теперь управлять светом с телефона и голосом.</p>
+                    <p><strong>Ваши выключатели работают как обычно!</strong></p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-microphone-alt"></i> Нужна Алиса или Маруся?</h3>
+                    <p>Колонка покупается отдельно (Яндекс Станция, VK Капсула). Мы поможем выбрать — важно, чтобы поддерживала Zigbee.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-clock"></i> Сколько времени?</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Свет — 1–2 часа</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Безопасность — 2–3 часа</li>
+                        <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Всё включено — 3–5 часов</li>
+                    </ul>
+                </div>
+
+                <div class="faq-item">
+                    <h3><i class="fas fa-shield-alt"></i> А если сломается?</h3>
+                    <p>Гарантия на работы — 1 год. Мы всегда на связи в мессенджерах.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ПРОСТЫЕ ПРЕИМУЩЕСТВА -->
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin: 2rem 0;">
+            <div style="background: var(--accent-soft); border-radius: 40px; padding: 0.7rem 1.5rem;"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Выключатели работают</div>
+            <div style="background: var(--accent-soft); border-radius: 40px; padding: 0.7rem 1.5rem;"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Смарфон, Алиса и Маруся</div>
+            <div style="background: var(--accent-soft); border-radius: 40px; padding: 0.7rem 1.5rem;"><i class="fas fa-check-circle" style="color:var(--accent);"></i> Работает без интернета</div>
+        </div>
+
+        <!-- ПРИЗЫВ К ДЕЙСТВИЮ -->
+        <div class="footer-note">
+            <i class="fas fa-hand-holding-heart" style="color:var(--accent);"></i> Приедем, покажем, установим<br>
+            <span style="display: inline-block; margin-top: 0.8rem; background: white; padding: 0.5rem 2rem; border-radius: 40px; font-weight: 600; border: 2px solid var(--accent); font-size: 1.2rem;">
+                <i class="fas fa-phone-alt" style="color:var(--accent);"></i> +7 (939) 715-84-82
+            </span>
+            <p style="margin-top: 0.5rem; font-size: 0.9rem;">Перезвоним через 5 минут</p>
+        </div>
+    </div>
+</div>
+
+    <!-- PAGE FOR BUSINESS (застройщики, строители, ремонтные бригады) -->
+
+<div id="page-business" class="page">
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-building"></i> <span class="gradient-text">продавайте быстрее и дороже</span></h1>
+            <p>Умный дом как преимущество перед конкурентами</p>
+            <div style="margin-top: 0.5rem;">
+                <span class="badge-zigbee"><i class="fas fa-chart-line"></i> Окупается 10x</span>
+            </div>
+        </div>
+
+        <!-- ГЛАВНАЯ ЦИФРА -->
+        <div class="business-highlight">
+            <h3>➕ Сколько добавляет к цене квартиры</h3>
+            <div class="price-big">от 150 000 ₽ до 700 000 ₽</div>
+            <p style="font-size: 1.2rem;">Вложения окупаются в 5–10 раз</p>
+        </div>
+
+        <!-- ПРОСТАЯ СТАТИСТИКА -->
+        <div class="stats-grid">
+            <div class="stat-item">
+                <i class="fas fa-chart-bar"></i>
+                <div class="stat-number">87%</div>
+                <p>покупателей выберут квартиру с умным домом</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-clock"></i>
+                <div class="stat-number">2-3 дня</div>
+                <p>монтаж в квартире под ключ</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-ruble-sign"></i>
+                <div class="stat-number">900%</div>
+                <p>окупаемость инвестиций</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-trophy"></i>
+                <div class="stat-number">№1</div>
+                <p>в запросах покупателей</p>
+            </div>
+        </div>
+
+        <!-- ГОТОВЫЕ РЕШЕНИЯ ДЛЯ ЗАСТРОЙЩИКОВ -->
+        <h2 style="font-size: 1.8rem; text-align: center; margin: 2rem 0 1.5rem;">Готовые пакеты под ваш объект</h2>
+        
+        <div class="solutions-grid">
+            <!-- ПАКЕТ 1: ЭКОНОМ -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-home"></i></div>
+                <h2>Эконом</h2>
+                <div class="badge business-badge">Для студий и 1-комнатных</div>
+                <div class="price-tag">22 900 ₽ <span class="price-note">за квартиру</span></div>
+
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Управление светом (до 4 точек)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Датчики движения (2 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Датчики открытия (2 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Умные розетки (2 шт)</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-gem"></i> Что получает покупатель</p>
+                    <ul>
+                        <li><i class="fas fa-lightbulb"></i> Свет сам включается при входе</li>
+                        <li><i class="fas fa-shield-alt"></i> Охрана периметра</li>
+                        <li><i class="fas fa-mobile-alt"></i> Управление с телефона</li>
+                    </ul>
+                    <p style="margin-top: 0.8rem; font-weight: 600; color: var(--success);">➕ 200 000 ₽ к цене квартиры</p>
+                </div>
+            </div>
+
+            <!-- ПАКЕТ 2: ОПТИМАЛЬНЫЙ -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-building"></i></div>
+                <h2>Оптимальный</h2>
+                <div class="badge business-badge">Для 2-3 комнатных</div>
+                <div class="price-tag">39 900 ₽ <span class="price-note">за квартиру</span></div>
+
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Управление светом (до 8 точек)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Датчики движения (4 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Датчики открытия (4 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Умные розетки (4 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Датчики климата (2 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Защита от протечек (2 шт)</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-gem"></i> Что получает покупатель</p>
+                    <ul>
+                        <li><i class="fas fa-robot"></i> Полная автоматизация</li>
+                        <li><i class="fas fa-water"></i> Защита от потопов</li>
+                        <li><i class="fas fa-microphone-alt"></i> Голосовое управление</li>
+                    </ul>
+                    <p style="margin-top: 0.8rem; font-weight: 600; color: var(--success);">➕ 400 000 ₽ к цене квартиры</p>
+                </div>
+            </div>
+
+            <!-- ПАКЕТ 3: ПРЕМИУМ -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-crown"></i></div>
+                <h2>Премиум</h2>
+                <div class="badge business-badge">Элитное жильё</div>
+                <div class="price-tag">69 900 ₽ <span class="price-note">за квартиру</span></div>
+
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Управление светом (до 15 точек)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 8 датчиков движения</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 8 датчиков открытия</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 8 умных розеток</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 4 датчика климата</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 4 датчика протечки</li>
+					<li><i class="fas fa-check-circle" style="color:var(--success);"></i> 2 камеры видеонаблюдения</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Управление шторами</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-gem"></i> Что получает покупатель</p>
+                    <ul>
+                        <li><i class="fas fa-crown"></i> Умный дом «под ключ»</li>
+                        <li><i class="fas fa-chart-line"></i> Экономия 30% на свете</li>
+                        <li><i class="fas fa-microphone-alt"></i> Алиса/Маруся в каждой комнате</li>
+                    </ul>
+                    <p style="margin-top: 0.8rem; font-weight: 600; color: var(--success);">➕ 700 000 ₽ к цене квартиры</p>
+                </div>
+            </div>
+
+            <!-- ПАКЕТ 4: РЕМОНТ -->
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-tools"></i></div>
+                <h2>Ремонт</h2>
+                <div class="badge business-badge">Для капремонта</div>
+                <div class="price-tag">15 900 ₽ <span class="price-note">за объект</span></div>
+
+                <ul class="equip-list">
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Замена выключателей (6 шт)</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 2 датчика движения</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> 2 умные розетки</li>
+                    <li><i class="fas fa-check-circle" style="color:var(--success);"></i> Датчик температуры</li>
+                </ul>
+
+                <div class="scenario-box">
+                    <p><i class="fas fa-gem"></i> Что получает покупатель</p>
+                    <ul>
+                        <li><i class="fas fa-bolt"></i> Никаких штроблений стен</li>
+                        <li><i class="fas fa-paint-roller"></i> Сохраняется дизайн</li>
+                        <li><i class="fas fa-clock"></i> Монтаж за 1 день</li>
+                    </ul>
+                    <p style="margin-top: 0.8rem; font-weight: 600; color: var(--success);">➕ 150 000 ₽ к цене квартиры</p>
+                </div>
+            </div>
+        </div>
+
+<!-- Камеры -->
+<div class="business-highlight" style="margin: 2rem 0; background: var(--bg-soft); color: var(--text-dark);">
+    <h3><i class="fas fa-video" style="color:var(--accent);"></i> Камеры — то, что просят покупатели</h3>
+    <p style="font-size: 1.1rem; color: var(--text-dark);">76% покупателей готовы доплатить за квартиру с видеонаблюдением</p>
+    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 1.5rem;">
+        <div><span style="font-size: 2rem; font-weight: 700; color: var(--accent);">2 500 ₽</span><br>входная камера</div>
+        <div><span style="font-size: 2rem; font-weight: 700; color: var(--accent);">+150 000 ₽</span><br>к цене квартиры</div>
+    </div>
+</div>
+
+        <!-- КАЛЬКУЛЯТОР ПРИБЫЛИ -->
+        <div class="price-table">
+            <h3><i class="fas fa-calculator"></i> Считаем прибыль</h3>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; padding: 1rem;">
+                <div style="background: var(--bg-card); padding: 1rem; border-radius: 20px;">
+                    <h4>💰 Вкладываете</h4>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--text-dark);">39 900 ₽</p>
+                </div>
+                <div style="background: var(--bg-card); padding: 1rem; border-radius: 20px;">
+                    <h4>📈 Получаете</h4>
+                    <p style="font-size: 2rem; font-weight: 700; color: var(--success);">+400 000 ₽</p>
+                </div>
+            </div>
+            <div style="background: var(--accent-soft); border-radius: 40px; padding: 1rem; margin-top: 1rem; text-align: center; font-size: 1.3rem; font-weight: 600;">
+                Чистая прибыль: 360 000 ₽ с одной квартиры
+            </div>
+        </div>
+
+        <!-- ПРЕИМУЩЕСТВА ДЛЯ ЗАСТРОЙЩИКА -->
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0;">
+            <div style="text-align: center; padding: 1rem;">
+                <i class="fas fa-rocket" style="font-size: 2rem; color: var(--accent);"></i>
+                <h3 style="font-size: 1rem; margin: 0.5rem 0;">Монтаж за 2-3 дня</h3>
+                <p style="font-size: 0.8rem;">Без грязи и шума</p>
+            </div>
+            <div style="text-align: center; padding: 1rem;">
+                <i class="fas fa-tag" style="font-size: 2rem; color: var(--accent);"></i>
+                <h3 style="font-size: 1rem; margin: 0.5rem 0;">Уникальное УТП</h3>
+                <p style="font-size: 0.8rem;">Выделитесь среди конкурентов</p>
+            </div>
+            <div style="text-align: center; padding: 1rem;">
+                <i class="fas fa-hand-holding-usd" style="font-size: 2rem; color: var(--accent);"></i>
+                <h3 style="font-size: 1rem; margin: 0.5rem 0;">Окупаемость x10</h3>
+                <p style="font-size: 0.8rem;">Каждый рубль приносит 10</p>
+            </div>
+        </div>
+
+        <!-- СПЕЦПРЕДЛОЖЕНИЕ -->
+        <div class="business-highlight" style="background: linear-gradient(145deg, var(--accent), var(--accent-light));">
+            <h3 style="color: white; font-size: 1.5rem;">🔥 Для застройщиков</h3>
+            <div class="price-big" style="font-size: 2.5rem;">-15%</div>
+            <p style="color: white; font-size: 1.1rem;">на первый объект при заказе от 5 квартир</p>
+            <p style="color: white; margin-top: 1rem;">➕ бесплатный демо-стенд для офиса продаж</p>
+        </div>
+
+        <!-- ПРИЗЫВ К ДЕЙСТВИЮ -->
+        <div class="footer-note" style="margin-top: 2rem;">
+            <i class="fas fa-handshake"></i> Работаем с застройщиками и дизайнерами<br>
+            <span style="display: inline-block; margin-top: 1rem; background: white; padding: 0.5rem 2rem; border-radius: 40px; font-weight: 600; border: 2px solid var(--accent); font-size: 1.2rem;">
+                <i class="fas fa-phone-alt"></i> +7 (939) 715-84-82
+            </span>
+            <p style="margin-top: 0.5rem;">Пришлем коммерческое предложение сегодня</p>
+        </div>
+    </div>
+</div>
+
+    <script>
+        // Page switcher functionality
+        const pageBtns = document.querySelectorAll('.menu-btn[data-page]');
+        const pages = document.querySelectorAll('.page');
+
+        pageBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all page buttons
+                pageBtns.forEach(b => b.classList.remove('active'));
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // Show corresponding page
+                const pageId = this.dataset.page;
+                pages.forEach(p => p.classList.remove('active-page'));
+                document.getElementById(`page-${pageId}`).classList.add('active-page');
+                
+                // Save to localStorage
+                localStorage.setItem('selectedPage', pageId);
+            });
+        });
+
+        // Load saved page from localStorage
+        const savedPage = localStorage.getItem('selectedPage');
+        if (savedPage) {
+            pageBtns.forEach(b => b.classList.remove('active'));
+            pages.forEach(p => p.classList.remove('active-page'));
+            
+            document.getElementById(`page-${savedPage}`).classList.add('active-page');
+            document.querySelector(`.menu-btn[data-page="${savedPage}"]`).classList.add('active');
+        }
+
+        // Theme switcher functionality
+        const themeBtns = document.querySelectorAll('.menu-btn.theme-btn');
+        const body = document.body;
+
+        themeBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all theme buttons
+                themeBtns.forEach(b => {
+                    b.classList.remove('active');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // Change theme
+                const theme = this.dataset.theme;
+                body.classList.remove('theme-warm', 'theme-tech', 'theme-nature', 'theme-night');
+                body.classList.add(theme);
+                
+                localStorage.setItem('selectedTheme', theme);
+            });
+        });
+
+        // Load saved theme
+        const savedTheme = localStorage.getItem('selectedTheme');
+        if (savedTheme) {
+            body.classList.remove('theme-warm', 'theme-tech', 'theme-nature', 'theme-night');
+            body.classList.add(savedTheme);
+            
+            themeBtns.forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.theme === savedTheme) {
+                    btn.classList.add('active');
+                }
+            });
+        } else {
+            body.classList.add('theme-tech');
+            document.querySelector('.menu-btn.theme-btn[data-theme="theme-tech"]').classList.add('active');
+        }
+
+        // Card click effect
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(c => {
+            c.addEventListener('click', (e) => {
+                c.style.transition = '0.1s';
+                c.style.backgroundColor = 'var(--accent-soft)';
+                setTimeout(() => c.style.backgroundColor = '', 150);
+            });
+        });
+    </script>
+</body>
+</html>
