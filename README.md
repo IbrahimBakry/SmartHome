@@ -3,8 +3,7 @@
 ```markdown
 # 🏠 Умный Дом — Готовые решения для жизни и бизнеса
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://yourusername.github.io/your-repo-name/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+https://ibrahimbakry.github.io/SmartHome/
 
 Адаптивный лендинг для презентации готовых пакетных решений умного дома на базе Zigbee. Сайт представляет два направления: для владельцев жилья и для застройщиков / строительных компаний.
 
@@ -69,7 +68,7 @@ project/
 ### Локальный запуск
 1. Скачайте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/ibrahimbakry/SmartHome.git
    ```
 2. Откройте `index.html` в любом современном браузере
 
@@ -114,43 +113,12 @@ body.theme-mytheme {
 ## 📞 Контакты
 
 По вопросам сотрудничества и заказам:
-- ✉️ Email: ваш@email.com
-- 📱 Телефон: +7 (___) ___-__-__
-
-## 🙏 Благодарности
-
-- [Font Awesome](https://fontawesome.com/) — за отличные иконки
-- [Google Fonts](https://fonts.google.com/) — за шрифт Inter
-- Всем клиентам и партнёрам ❤️
+- ✉️ Email: ibrahimbakry0@gmail.com
+- 📱 Телефон: +7 (939) 715-84-82
 
 ---
 
 ⭐ **Если проект был полезен, поставьте звезду на GitHub!**
 ```
 
-## 📝 **Дополнительные файлы, которые можно добавить**
-
-### **LICENSE** (файл с лицензией MIT)
-```
-MIT License
-
-Copyright (c) 2024 [Ваше имя]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files...
-```
-
-### **.gitignore** (чтобы не загружать лишнее)
-```
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.swo
-*.swp
-```
-
-Готово! Теперь у вашего проекта на GitHub есть профессиональное описание на русском языке.
+та на GitHub есть профессиональное описание на русском языке.
